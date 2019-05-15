@@ -23,4 +23,9 @@ func main() {
 
 	fmt.Println(carSlice)
 	fmt.Println(carModelSlice)
+
+	//to count items
+	fmt.Println(len(carModelArr))
+	//to get range
+	fmt.Println(carModelSlice[1:2])
 }
